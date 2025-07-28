@@ -1,0 +1,13 @@
+endpoints:
+  - name: httpbingo
+    path: https://httpbingo.org/
+    headers:
+      Accept: application/json
+    endpoints:
+      - name: http-methods
+        requests:
+          !include http-methods.yaml
+
+      - name: images
+        requests:
+          !include images.yaml
