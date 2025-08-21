@@ -11,3 +11,7 @@ endpoints:
       - name: images
         requests:
           !include images.yaml
+
+      - name: restrictedpython-comprehensive
+        requests:
+          !include restrictedpython-comprehensive.yaml
